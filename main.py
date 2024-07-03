@@ -2,7 +2,7 @@ import random
 
 
 def foldandswap(numbers):
-    for i in range(int(len(numbers)/2)):
+    for i in range(0,int(len(numbers)/2)):
         sub = numbers[i]
         numbers[i] = numbers[-i]
         numbers[-i] = sub
